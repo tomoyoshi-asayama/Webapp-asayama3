@@ -1,4 +1,6 @@
 WebappAsayama3::Application.routes.draw do
+#  get "siritori/send"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -24,7 +26,7 @@ WebappAsayama3::Application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-
+  match "sendWord", :to => "siritori#sendWord", :via => :get
   # Sample resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
