@@ -1,0 +1,5 @@
+development:
+  connecturl: http://192.168.0.123:3000/recvWord?wordRecv=
+
+production:
+  connecturl: http://www.agile.ruby.jp/touyama/recvWord?wordRecv=

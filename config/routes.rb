@@ -27,6 +27,7 @@ WebappAsayama3::Application.routes.draw do
   #     end
   #   end
   match "sendWord", :to => "siritori#sendWord", :via => :get
+  
   # Sample resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
